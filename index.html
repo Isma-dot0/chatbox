@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List with Voice Commands</h1>
+    </header>
+    <div class="container">
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+        <button class="delete-btn" onclick="clearAllTasks()">Clear All</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
